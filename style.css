@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+   
+}
+body{
+  height: 97.9vh;
+  background: linear-gradient(rgb(42, 93, 187),rgb(74, 122, 211));
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+justify-content: space-evenly;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.form{
+ height: 10vh;
+
+}
+.icon{
+display: flex;
+
+
+
+
+}
+.temperature{
+ margin: auto;
+ margin-right: 5px;
+
+}#tb{
+  color: black;
+  outline:none;
+  width: 250px;
+ text-indent: 7px;
+  border-radius: 3px;
+  padding: 5px 8px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+
+}button{
+ cursor: pointer;
+margin-bottom: 0px;
+position: relative;
+right: 8px;
+bottom: 0px;
+top: .2px;
+padding: 5px 5px 4.5px 5px;
+background-color: #2ac77e;
+width: 50px;
+
+}
+.temperature-description{
+  height: 12px;
+}
+.form img{
+  width: 20px;
+  height: 14.9px;
+ 
+}
+
