@@ -24,6 +24,8 @@ if (window.navigator.geolocation) {
     window.navigator.geolocation.getCurrentPosition(success,console.log);
     
    } 
+   webView.getSettings().setDomStorageEnabled(true);
+   webSettings.setJavaScriptEnabled(true);
 function success(pos){
     var crd = pos.coords;
     var lat = crd.latitude;
